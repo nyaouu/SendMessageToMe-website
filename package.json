@@ -1,0 +1,24 @@
+{
+  "name": "cute-website",
+  "version": "1.0.0",
+  "description": "so cute with nao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contact",
+    "me",
+    "with",
+    "so",
+    "cute",
+    "website"
+  ],
+  "author": "nao",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0"
+  }
+}

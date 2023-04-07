@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+
+    display: flex;
+
+    background-color: rgb(0, 10, 65);
+    background-position: center;
+    background-size: cover;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.home-class {
+    min-height: 100vh;
+    width: 100vw;
+
+    position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+}
+
+.home-class .title {
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-class .backend {
+    width: 70vh;
+    height: 50vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+}
+
+.home-class .backend .message-label {
+    color: rgb(255, 122, 237);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-class .backend #message {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-class .backend .submit {
+    color: rgb(255, 122, 237);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 700px) {
+    .home-class .backend {
+       font-size: 1rem;
+       width: 30vh;
+       height: 50vh;
+    }
+    .home-class .backend .message-label {
+        top: 30%;
+    }
+    .home-class .backend #message {
+        top: 60%;
+    }
+    .home-class .backend .submit {
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .home-class .backend {
+        font-size: 1.2rem;
+        width: 40vh;
+        height: 60vh;
+     }
+    @media screen and (max-height: 850) {
+         .home-class .backend .message-label {
+             top: 30%;
+         }
+         .home-class .backend #message {
+             top: 70%;
+         }
+         .home-class .backend .submit {
+             top: 90%;
+         }   
+    }
+}
